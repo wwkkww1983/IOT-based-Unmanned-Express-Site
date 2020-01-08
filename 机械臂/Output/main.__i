@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I .\CORE -I .\FWlib\inc -I .\HARDWARE\Timer -I .\HARDWARE\Servo -I .\SYSTEM\delay -I .\SYSTEM\sys -I .\SYSTEM\usart -I .\USER -I .\HARDWARE\KEY -I .\HARDWARE\LED -I .\HARDWARE\PS2 -I .\HARDWARE\SPI -I .\HARDWARE\FLASH -I .\HARDWARE\Common -I .\HARDWARE\Oneline -I .\HARDWARE\Beep -I .\HARDWARE\Adc -I .\HARDWARE\Sensor
+-IG:\Keil_v5\ARM\RV31\INC
+-IG:\Keil_v5\ARM\CMSIS\Include
+-IG:\Keil_v5\ARM\INC\ST\STM32F10x
+-D__UVISION_VERSION="525" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD
+-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d "USER\main.c"
